@@ -1,0 +1,60 @@
+body {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200vh;
+}
+
+.parent {
+  background-color: blue;
+  padding: 15px;
+  font-size: 18px;
+  position: relative;
+  width: 70%;
+  height: auto;
+  color: white;
+}
+
+.child {
+  line-height: 3;
+  padding: 5px;
+  margin: 5px;
+}
+
+.child-one {
+  background-color: green;
+  position: relative;
+  top: 0;
+}
+
+.child-two {
+  background-color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.7;
+}
+
+.child-three {
+  background-color: skyblue;
+  position: absolute;
+  left: -50;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+.child-four {
+  background-color: yellow;
+  color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.child-five {
+  background-color: gray;
+  position: absolute;
+  right: -50;
+}
